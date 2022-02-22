@@ -1,0 +1,51 @@
+body {
+    background-color: rebeccapurple;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+
+}
+
+.pw-container {
+    background-color: rgb(50, 14, 85);
+    width: 400px;
+
+}
+
+.pw-header{
+    padding: 1rem;
+
+}
+
+.pw {
+    background-color: rebeccapurple;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    height: 50px;
+    width: 92%;
+    position: relative;
+    padding: .75rem;
+
+}
+
+.pw button {
+    background-color: rgb(90, 58, 122);
+    color: white;
+    position: absolute;
+    padding: 0.25rem 0.5rem;
+    bottom: 0;
+    left: 50%;
+    transform: translate(30%, 50%);
+
+
+}
+
+.pw-body {
+    padding: 1rem;
+
+}
