@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 body {
-    background-color: rebeccapurple;
+    background-color:  #5f4e9e;
     color: white;
     display: flex;
     align-items: center;
@@ -11,7 +13,7 @@ body {
 }
 
 .pw-container {
-    background-color: rgb(50, 14, 85);
+    background-color: #402785;
     width: 400px;
 
 }
@@ -22,7 +24,7 @@ body {
 }
 
 .pw {
-    background-color: rebeccapurple;
+    background-color: #5f4e9e;
     display: flex;
     font-size: 1.5rem;
     align-items: center;
@@ -34,8 +36,9 @@ body {
 }
 
 .pw button {
-    background-color: rgb(90, 58, 122);
-    color: white;
+    background-color: #fcc97b;
+    color: #402785;
+    font: sans-serif;
     position: absolute;
     padding: 0.25rem 0.5rem;
     bottom: 0;
@@ -48,4 +51,22 @@ body {
 .pw-body {
     padding: 1rem;
 
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0; 
+}
+
+.generate{
+    background-color: #fcc97b;
+    display: block;
+    color: #402785;
+    font-size: 1.5rem;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+    padding: .75rem;
+    
 }

@@ -17,9 +17,8 @@
     <body>
         <div class="pw-container">
             <div class="pw-header">
-                <div class="pw">
-                    hostneatinstn
-                    <button>Copy to Clipboard</button>
+                <div class="pw" id="pw">
+                    <button is="copy">Copy to Clipboard</button>
                 </div>   
             </div>
             <div class="pw-body">
@@ -43,6 +42,10 @@
                     <label for="symbol">Contain Symbols</label>
                     <input id=symbol type="checkbox" />
                 </div>
+                <button class="generate" 
+                id="generate">
+                    Generate Password
+                </button>
             </div>
         </div>
     </body>
